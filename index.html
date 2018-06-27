@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name = "viewport" content = "width=device-width, initial-scale = 1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="styles/main.css" rel="stylesheet">
+<title>Aileen Chua</title>
+</head>
+
+<body>
+<div class="maingirl">
+<div class="overlay" onclick="closeNav()"></div>
+    <!--Ham Toggle  -->
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">Home</a>
+      <a href="#about" onclick="about()" class="about">About</a>
+      <a href="projects.html" onclick="">Projects</a>
+      <a href="#contact" onclick="contact()" class="contact">Contact</a>
+    </div>
+
+
+    <div class="navflex">
+      <h1 class="home">Aileen Chua</h1>
+      <span id="span" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+      <nav class="navbar navbar-default-a">
+        <div class="container-fluid">
+          <div class="navbar-header">
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about" onclick="about()" class="about">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="#contact" onclick="contact()" class="contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+
+
+    <div class="container">
+        <div class="container intro">
+                <h2>Nice to meet you!</h2>
+                <section>
+                  <p>I'm Aileen- a Front-End Developer living in Corona, California. I enjoy building responsive web sites focusing onthe visual components of a website. Using HTML, CSS , and Javascript, I build fast, interactive websites.</p>
+                </section>
+          </div>
+      </div>
+
+        <div class="container">
+            <img src = "images/index.jpg" class="img-responsive">
+            <section id="about">
+              <h2 class="about fadein">About Me</h2>
+              <p class="fadein">In the spring of 2018, during my last year as an undergrad, I took a basic web development course where we were assigned the task to build web pages. From then on, a love for web developement blossomed. Any opportunity I get I like to create and further my knowlege in this field, because web developement isn't just about the code. It's about creating beautifuly interactive web sites that showcase who you are.</p>
+            </section>
+
+         </div>
+
+        <div class="container fadein">
+          <img src="images/office.jpg" class="img-responsive" alt="Plants with white background">
+        </div>
+
+
+    <!-- Contact Form -->
+    <div class="container fadein" id="contact">
+      <h2 class="contact">Contact Me!</h2>
+      <h3>Email</h3><a href="mailto:aileenvictoriachua@gmail.com" target="_top">Send Mail</a><br>
+      <h3>Phone</h3>
+      <a href="tel:5622431781" target ="_top" style="text-decoration:none">(562)-243-1781</a>
+    </div>
+    <p></p>
+
+    <div class="footer row">
+       <div class="col-sm-12">
+         <a href=""><img src="images/linkedin.svg"></a>
+         <a href=""><img src="images/mail.svg"></a>
+         <a href=""><img src="images/github.svg"></a>
+       </div>
+    </div>
+  </div>
+
+</div>  <!--End of #MainGirl-->
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" ></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+<script src="js/main.js" type="text/javascript" defer></script>
+
+
+</body>
+</html>
