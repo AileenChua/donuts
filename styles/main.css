@@ -3,9 +3,12 @@
   padding:0;
 }
 
-html{
+html,body{
   overflow-x: hidden;
-  background-color: #fff;
+  background:url("../images/work.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 .fadein {
     opacity:0;
@@ -61,22 +64,38 @@ h1.home{
 h2{
   margin-top:100px;
 }
+h3.recent{
+  margin-top:100px;
+}
+img.main{
+  margin-bottom: 100px;
+}
+section#about{
+  padding: 50px;
+  margin-bottom: 100px;
+  background: #edfff5;
+  color: black;
+}
 .about{
 opacity: 1;
 margin-top: 0;
-padding-top: 104px;
-}
-p {
-    margin-bottom: 100px;
 }
 .container.intro{
   text-align: center;
-  margin-top: 60px;
+  margin-top: 183px;
+  background: mintcream;
+  margin-bottom: 200px;
 }
 .container.intro p{
   margin: auto auto 100px;
   width: 57%;
   font-size: 1.1em;
+}
+.container.intro p,
+section#about p{
+  font-family: "raleway";
+  line-height: 2;
+  font-size: 1.2em;
 }
 .col-sm-12{
   text-align: center;
@@ -141,7 +160,7 @@ max-height: calc(100vh - 44px);
     z-index: 3;
     top: 0;
     left: 0;
-    background-color: lavender;
+    background-color:#d8ffffe0;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -151,9 +170,9 @@ max-height: calc(100vh - 44px);
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
     display: block;
     transition: 0.3s;
+    color: #333333;
 }
 
 .sidenav .closebtn {
@@ -165,7 +184,7 @@ max-height: calc(100vh - 44px);
 }
 
 .maingirl {
-    transition: margin-left .5s;
+    transition: 0.5s;
     padding:0 16px 0 16px;
 }
 }
@@ -173,3 +192,4 @@ max-height: calc(100vh - 44px);
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
